@@ -26,6 +26,7 @@ Adjustedinflationrate = global_inflation_data[Inflationrate]*.01
 Snap of Custom Columns,
 
 
+
 - Step 5 : In the report view, under the view tab, theme was selected.
 - Step 6 : Since the project title inserted through text box *"Power BI Inflation Analysis: Journeying Through Global Economic Terrain,"* in the visualizations pane in report view. 
 - Step 7 : Visual filters (Slicers) were added for "Country" field.
@@ -48,6 +49,13 @@ for creating new column following DAX expression was written;
             ) 
         RETURN 
         IF(ISBLANK(PreviousInflationRate), BLANK(), (CurrentInflationRate - PreviousInflationRate) / PreviousInflationRate)
+Snapshot of Dashboard (Power BI Service)
 
   
+
+![dashboard](https://github.com/user-attachments/assets/f2552f10-ff99-4fef-a08d-4a723e162eb8)
+
+Report Snapshot (Power BI DESKTOP)
+
+![Screenshot 2025-03-05 155258](https://github.com/user-attachments/assets/f3808207-209c-4316-b38e-4f120013e3f3)
 
